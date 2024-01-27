@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:white; /* Change background color to a different color */
+}
+
+.container {
+  text-align: center;
+}
+
+input {
+  border-radius: 12px;
+  font-size: 24px;
+  height: 45px;
+  width: 220px;
+  margin-bottom: 10px;
+  background-color: #1e1e1e;
+  color: #fff;
+  border: none;
+  text-align: right;
+  padding-right: 10px;
+}
+
+button {
+  border-radius: 10px;
+  font-size: 20px;
+  background: #2c2c2c;
+  color: #fff;
+  width: 50px;
+  height: 40px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #3c3c3c;
+}
+
+.operator,
+.equal,
+.clear,
+.dot,
+.delete { /* Added the delete class */
+  background: #ff8c00;
+  color: #fff;
+}
+
+.operator:hover,
+.equal:hover,
+.clear:hover,
+.dot:hover,
+.delete:hover { /* Added the delete class */
+  background: #ffaa33;
+}
+.calculator-title {
+  margin-bottom: 20px;
+}
+
+.calculator-title h2 {
+  color: #fff;
+  font-size: 28px;
+  margin: 0;
+}
+
+.calculator {
+  background-color:grey;
+  padding: 23px;
+  border-radius: 20px;
+  display: inline-block;
+  border: 2px solid #fff; /* Add this line for the border */
+  box-sizing: border-box; /* Ensure the border is included in the overall width/height */
+  width: 300px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the calculator */
+}
